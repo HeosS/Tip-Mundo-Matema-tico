@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <title>Tip Mundo Matemático</title>
+        
+        <meta name="author" content="HeosS"/>
+        
+        <link rel="stylesheet" type="text/css" href="sass/app.css">
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/plugins.js"></script>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MSZQ7RC');</script>
+        <!-- End Google Tag Manager -->
+        
+    </head>
+    
+    <body onLoad="onDeviceReady();">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSZQ7RC"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <!--cargador-->
+        <div class="fondo" id="cargador">
+            <div class="loader">
+                <i></i><i></i><i></i><i></i>
+            </div>
+            <p>Cargando</p>
+            <div class="division-1"></div>
+        </div>
+        <!--cargador-->
+    
+        <!--container-->
+        <div class="container">
+            <!--<button onclick="login()">Login with Google+</button>-->
+        </div>
+        <!--container-->
+
+        <!--musica-->
+        <audio id="audio-1" class="audio-1" src="sound/1.mp3" type="audio/mpeg" preload loop></audio>
+        <audio id="audio-2" class="audio-2" src="sound/2.mp3" type="audio/mpeg" preload loop></audio>
+        <audio id="audio-3" class="audio-3" src="sound/3.mp3" type="audio/mpeg" preload loop></audio>
+        <audio id="audio-4" class="audio-4" src="sound/4.mp3" type="audio/mpeg" preload loop></audio>
+        <audio id="audio-5" class="audio-5" src="sound/5.mp3" type="audio/mpeg" preload loop></audio>
+        <audio id="audio-6" class="audio-6" src="sound/6.mp3" type="audio/mpeg" preload loop></audio>
+        <audio id="audio-7" class="audio-7" src="sound/mal.mp3" type="audio/mpeg" preload></audio>
+        <audio id="audio-8" class="audio-8" src="sound/bien.mp3" type="audio/mpeg" preload></audio>
+        <audio id="audio-9" class="audio-9" src="sound/btn.mp3" type="audio/mpeg" preload></audio>
+        <!--musica-->
+
+        <script src="js/main.js"></script>
+        <script src="js/contenido.js"></script>
+        <script src="js/juego-1.js"></script>
+        <script src="js/juego-2.js"></script>
+        <script src="js/juego-3.js"></script>
+        <script src="js/generalJuego.js"></script>
+        <script src="js/generalContenido.js"></script>
+        <script src="js/modulosSuma.js"></script>
+        <script src="js/modulosResta.js"></script>
+        <script src="js/lecturaDatos.js"></script>
+        <script src="cordova.js"></script>
+        
+        <script type="text/javascript">
+            //variables guardadas
+            var addCredito = localStorage.getItem('addCreditoMat') || '<empty>';
+            var nombreActivo = localStorage.getItem('nombrePerfilMat') || '<empty>';
+            var avatarActivo = localStorage.getItem('avatarPerfilMat') || '<empty>';
+            var totalPistas = localStorage.getItem('totalPistasMat') || '<empty>';
+            var desbloqueoPersonajes = localStorage.getItem('personajesDesbloqueadosMat') || '<empty>';
+            //sonido
+            var sonido = localStorage.getItem('sonidoGeneralMat') || '<empty>';
+            var botonSonido = localStorage.getItem('botonSonidoMat') || 'false';
+            var pausa = localStorage.getItem('pausaMat') || '<empty>';
+            //tutoriales
+            var openTutorialMat1 = localStorage.getItem('openTutorialMat1') || '<empty>';
+            var openTutorialMat2 = localStorage.getItem('openTutorialMat2') || '<empty>';
+            var openTutorialMat3 = localStorage.getItem('openTutorialMat3') || '<empty>';
+            var openTutorialMat4 = localStorage.getItem('openTutorialMat4') || '<empty>';
+            //total de copas
+            var totalCopasBasico = 0;
+            var totalCopasMedio = 0;
+            var totalCopasAvanzado = 0;
+            //puntajes
+            //juego 1
+            var puntajeBasicoMat1 = localStorage.getItem('puntajeBasicoMat1') || 0;
+            var puntajeMedioMat1 = localStorage.getItem('puntajeMedioMat1') || 0;
+            var puntajeAvanzadoMat1 = localStorage.getItem('puntajeAvanzadoMat1') || 0;
+            //juego 2
+            var puntajeBasicoMat2 = localStorage.getItem('puntajeBasicoMat2') || 0;
+            var puntajeMedioMat2 = localStorage.getItem('puntajeMedioMat2') || 0;
+            var puntajeAvanzadoMat2 = localStorage.getItem('puntajeAvanzadoMat2') || 0;
+            //juego 3
+            var puntajeBasicoMat3 = localStorage.getItem('puntajeBasicoMat3') || 0;
+            var puntajeMedioMat3 = localStorage.getItem('puntajeMedioMat3') || 0;
+            var puntajeAvanzadoMat3 = localStorage.getItem('puntajeAvanzadoMat3') || 0;
+            //juego 4
+            var puntajeBasicoMat4 = localStorage.getItem('puntajeBasicoMat4') || 0;
+            var puntajeMedioMat4 = localStorage.getItem('puntajeMedioMat4') || 0;
+            var puntajeAvanzadoMat4 = localStorage.getItem('puntajeAvanzadoMat4') || 0;
+            //calificacion
+            var calificacion = localStorage.getItem('calificadoMat') || '<empty>';
+            var videoDescarga = 0;
+            //nombre
+            var nombre;
+            //carga los datos para la publicidad
+            var idBanner = "";
+            var idInterstitial = "";
+            var idVideo = "";
+            //device listo
+            var videoListo = false;
+            function onDeviceReady() {
+                AdMob.setOptions({
+                    isTesting: true
+                });
+        
+                AdMob.prepareRewardVideoAd({
+                    adId: idVideo,
+                    autoShow: false
+                });
+
+                document.addEventListener('onAdLoaded', function(e){
+                    if(typeof e.originalEvent !== 'undefined') e = e.originalEvent;
+                    var data = e.detail || e.data || e;
+
+                    if(data.adType == 'rewardvideo'){
+                        videoListo = true;
+                    }
+                });
+                document.addEventListener('onAdFailLoad', function(e){
+                    if(typeof e.originalEvent !== 'undefined') e = e.originalEvent;
+                        var data = e.detail || e.data || e;
+
+                        if(data.adType == 'rewardvideo'){
+                            if(!videoListo){
+                            errorDescargaVideo();
+                        }
+                    }
+                });
+                document.addEventListener('onAdPresent', function(e){
+                    if(data.adType == 'rewardvideo'){
+                        videoDescarga = 1;
+                    }
+                });
+                document.addEventListener('onAdDismiss', function(data){ 
+                    if(data.adType == 'rewardvideo'){
+                        recuperado();
+                        videoListo = false;
+                        loadInterstitial();
+                    }
+                });
+
+                document.addEventListener("pause", onPause, false);
+                document.addEventListener("resume", onResume, false);
+            }
+            //mostrar el video
+            function showInterstitial(){
+                cargaInterstitial();
+            }
+            //show inter
+            function cargaInterstitial(){
+                if(videoListo){
+                    AdMob.showRewardVideoAd();
+                }else{
+                    loadInterstitial();
+                }
+            }
+            //cargar video
+            function loadInterstitial(){
+                AdMob.prepareRewardVideoAd({
+                    adId: idVideo,
+                    autoShow: false
+                });
+            }
+            //cargar inter en tabla
+            function interstitialTable(){
+                AdMob.prepareInterstitial({
+                    adId: idInterstitial,
+                    autoShow: true
+                });
+            }
+            //evento click boton del dispositivo
+            document.addEventListener("backbutton", function(){
+                onBackKeyDown();
+            });
+            //apagar sonido segundo plano
+            function onPause(){
+                onSonidoDown();
+            };
+            //activa sonido desde segundo plano
+            function onResume(){
+                if(pausa == '<empty>'){
+                    navigator.app.exitApp();
+                }
+                localStorage.pausa = "pausa";
+                onSonidoUp();
+            };
+            //event default
+            /*document.addEventListener("touchmove", function(e){
+                e.preventDefault(); 
+            }, false);*/
+            //body listo
+            function onBodyLoad() {
+                document.addEventListener("deviceready", onDeviceReady, false);
+            }
+            //login
+            function login() {
+                window.plugins.googleplus.login({},
+                    function (obj) {},
+                    function (msg) {}
+                );
+            }
+        </script>
+        
+    </body>
+    
+</html>

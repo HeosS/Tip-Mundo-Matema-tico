@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#66905B" d="M156,126.688C156,142.324,143.324,155,127.688,155H33.313C17.676,155,5,142.324,5,126.688V32.313
+			C5,16.676,17.676,4,33.313,4h94.375C143.324,4,156,16.676,156,32.313V126.688z"/>
+		<path fill="#9BDB8B" d="M156,114.688C156,130.324,143.324,143,127.688,143H33.313C17.676,143,5,130.324,5,114.688V32.313
+			C5,16.676,17.676,4,33.313,4h94.375C143.324,4,156,16.676,156,32.313V114.688z"/>
+		<g>
+			<g>
+				<circle cx="126.493" cy="102.275" r="14.674"/>
+				<circle fill="#FFFFFF" cx="131.858" cy="96.471" r="5.366"/>
+			</g>
+			<g>
+				<circle cx="34.507" cy="102.275" r="14.674"/>
+				<circle fill="#FFFFFF" cx="39.873" cy="96.471" r="5.366"/>
+			</g>
+			
+				<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="66" y1="122" x2="96" y2="122"/>
+		</g>
+	</g>
+	
+		<circle fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" cx="125.5" cy="102.667" r="22.167"/>
+	
+		<circle fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" cx="34.5" cy="102.667" r="22.167"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="57" y1="103.5" x2="103" y2="103.5"/>
+	<path opacity="0.5" d="M47.499,74.5c-0.179,0-0.36-0.048-0.523-0.148c-0.471-0.289-0.617-0.905-0.328-1.376l5.214-8.473
+		c0.194-0.316,0.547-0.494,0.92-0.474c0.371,0.025,0.697,0.255,0.847,0.596l2.44,5.545l2.848-10.616
+		c0.105-0.393,0.438-0.683,0.841-0.733c0.406-0.045,0.797,0.148,0.997,0.502l4.49,7.982l2.126-12.226
+		c0.095-0.544,0.611-0.904,1.157-0.814c0.544,0.095,0.909,0.612,0.814,1.156l-2.607,14.991c-0.073,0.417-0.399,0.743-0.816,0.814
+		c-0.416,0.073-0.833-0.127-1.041-0.495l-4.664-8.292l-2.949,10.993c-0.11,0.41-0.467,0.706-0.89,0.738
+		c-0.418,0.034-0.821-0.206-0.992-0.595l-2.817-6.401l-4.215,6.85C48.163,74.331,47.835,74.5,47.499,74.5z"/>
+	<path opacity="0.7" fill="#517645" d="M156,94V32.313C156,16.676,143.324,4,127.688,4H33.313C17.676,4,5,16.676,5,32.313V94
+		l5.75-23.5l5.5,1.25L43.5,45L43,44.75l4.5,7.75l7.25-8.5l0.5-0.25l20,9l6.75,3.5l26,9l1.75-14L125,61.5l3.75-9.75v-0.5L139.5,65.5
+		l0.25,0.25l8.75,5.75L156,94z"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="12.333" y1="102.667" x2="5" y2="96.471"/>
+	
+		<line fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" x1="147.667" y1="102.667" x2="156" y2="93.842"/>
+</g>
+</svg>

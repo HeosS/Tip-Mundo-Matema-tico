@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<g>
+	<path fill="#4B9257" d="M155.167,127.188c0,15.637-12.676,28.313-28.313,28.313H32.479c-15.637,0-28.313-12.676-28.313-28.313
+		V32.813C4.167,17.176,16.843,4.5,32.479,4.5h94.375c15.637,0,28.313,12.676,28.313,28.313V127.188z"/>
+	<path fill="#77DD88" d="M155.167,115.188c0,15.637-12.676,28.313-28.313,28.313H32.479c-15.637,0-28.313-12.676-28.313-28.313
+		V32.813C4.167,17.176,16.843,4.5,32.479,4.5h94.375c15.637,0,28.313,12.676,28.313,28.313V115.188z"/>
+	<g>
+		<g>
+			<circle cx="125.826" cy="102.275" r="14.674"/>
+			<circle fill="#FFFFFF" cx="131.192" cy="96.471" r="5.366"/>
+		</g>
+		<g>
+			<circle cx="33.84" cy="102.275" r="14.674"/>
+			<circle fill="#FFFFFF" cx="39.206" cy="96.471" r="5.366"/>
+		</g>
+		
+			<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="65.167" y1="122.5" x2="95.167" y2="122.5"/>
+	</g>
+</g>
+</svg>

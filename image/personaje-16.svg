@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="160px" height="160px" viewBox="0 0 160 160" enable-background="new 0 0 160 160" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#597C9A" d="M156,126.688C156,142.324,143.324,155,127.688,155H33.313C17.676,155,5,142.324,5,126.688V32.313
+			C5,16.676,17.676,4,33.313,4h94.375C143.324,4,156,16.676,156,32.313V126.688z"/>
+		<path fill="#93CAFC" d="M156,114.688C156,130.324,143.324,143,127.688,143H33.313C17.676,143,5,130.324,5,114.688V32.313
+			C5,16.676,17.676,4,33.313,4h94.375C143.324,4,156,16.676,156,32.313V114.688z"/>
+		<g>
+			
+				<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="66" y1="120" x2="96" y2="120"/>
+			
+				<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="100" x2="141" y2="100"/>
+			
+				<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="20" y1="100" x2="50" y2="100"/>
+		</g>
+	</g>
+	<circle fill="none" stroke="#597C9A" stroke-width="4" stroke-miterlimit="10" cx="80.167" cy="47.834" r="20.167"/>
+	<circle fill="#597C9A" cx="80.167" cy="68.168" r="4.833"/>
+	<circle fill="#597C9A" cx="80.167" cy="28.168" r="4.833"/>
+	<circle fill="#597C9A" cx="80.167" cy="48.168" r="4.833"/>
+</g>
+</svg>
