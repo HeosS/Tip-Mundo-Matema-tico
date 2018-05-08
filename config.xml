@@ -51,7 +51,7 @@
 	</compatible-screens>
 	
 	<preference name="phonegap-version" value="cli-8.0.0"/>
-	<preference name='pgb-builder-version' value='1' />
+	<preference name='pgb-builder-version' value='2' />
 	<preference name="permissions" value="none"/>
 	<preference name="accelerated" value="none"/>
 	<preference name="android-installLocation" value="preferExternal"/>
