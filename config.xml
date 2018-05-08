@@ -19,6 +19,8 @@
 	<icon src="image/Icono.png" gap:platform="android" gap:density="mdpi"/>
 	<icon src="image/Icono.png" gap:platform="android" gap:density="hdpi"/>
 	<icon src="image/Icono.png" gap:platform="android" gap:density="xhdpi"/>
+	<icon src="image/Icono.png" gap:platform="android" gap:density="xxhdpi"/>
+	<icon src="image/Icono.png" gap:platform="android" gap:density="xxxhdpi"/>
 	
 	<description>
 		xxx.
